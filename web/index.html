@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="-static\css\-style.css">
+            <title>portfolio</title>           
+        </head>
+        <body>
+            <h1>포트폴리오 문제</h1>
+            <p style = "margin-top:35px;"> </p>
+            <div style="height: auto; width: 100%; border-top: 2px solid darkgray;">
+                <p style = "margin-top:60px;"> </p>
+                <form action="insert.no" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>공지사항 작성하기</legend>
+                        <p style = "margin-top:20px;"> </p>
+                                            
+                                   <div class="fieldlabel"><label><b>제목</b></label></div> 
+                                   <input type="text" style="width: 30%;" name="title" placeholder="제목을 입력하시오." required><br>                               
+                                
+                                   <div class="fieldlabel3"><label><b>내용</b></label></div>    
+                                    <textarea rows="10" style="width: 30%;" name="content" placeholder="내용을 입력하시오." required></textarea><br>                               
+                                   
+
+                                   <div class="fieldlabel2"><label><b>첨부파일</b></label></div>
+                                   <input type="file" name="uploadFile"><br>                                
+                                                                      
+                                   <p style = "margin-top:20px;"> </p>
+                                <div class="btnfield">                       
+                                <input type="submit" name="uploadFile" value="작성하기"><br>
+                                </div>
+                                
+                           
+                    </fieldset>
+                </form>
+            <p style = "margin-top:40px;"> </p>
+            <div style="height: auto; width: 100%; border-top: 2px solid darkgray;"></div>
+            <p style = "margin-top:40px;"> </p>
+            <div class="container">
+                <table border="1" width="100%">
+                   <thead>
+                        <tr>
+                            <th width="4%">번호</th>
+                            <th colspan="2" width="60%">제목</th>
+                            <th width="15%">작성자</th>
+                            <th width="15%">작성일</th>
+                            <th width="6%">조회수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9</td>
+                            <td width="55%">공지사항 제목9</td>
+                            <td>
+                                <button>바로가기</button>
+                            </td>
+                            <td>user01</td>
+                            <td>2021-03-29</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>공지사항 제목6</td>
+                            <td>
+                            <button>바로가기</button>
+                            </td>
+                            <td>answ445</td>
+                            <td>2021-03-29</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>공지사항 제목9</td>
+                            <td>
+                            <button>바로가기</button>
+                            </td>
+                            <td>user01</td>
+                            <td>2021-03-29</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>공지사항 제목9</td>
+                            <td>
+                            <button>바로가기</button>
+                            </td>
+                            <td>user01</td>
+                            <td>2021-03-29</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>공지사항 제목9</td>
+                            <td>
+                            <button>바로가기</button>
+                            </td>
+                            <td>user01</td>
+                            <td>2021-03-29</td>
+                            <td>34</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">전체공지사항 갯수</td>
+                                <td colspan="2">5개</td>
+                            </tr>
+                        </tfoot>
+                    </tfoot>
+                </table>
+                </div>
+                
+            </div>
+        </body>
+    </html>

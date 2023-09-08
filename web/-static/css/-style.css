@@ -1,0 +1,20 @@
+  thead, tfoot {
+    background-color: rgb(255, 160, 122);
+    color: white;
+    font-weight: bolder;
+    text-align: center; 
+    vertical-align: middle; 
+    word-break: keep-all;
+  }
+
+  tbody {
+    background-color: rgb(255, 254, 224);
+    word-break: keep-all;
+  }
+
+  .fieldlabel{float:left;text-align:right;vertical-align: middle;padding-right:50px;}
+  .fieldlabel2{float:left;text-align:right;vertical-align: middle;padding-right:18px;}
+  .fieldlabel3{float:left;text-align:right;vertical-align: middle;padding-right:50px;padding-top: 59px;}
+
+ 
+  .btnfield{margin-left: 100px;}
